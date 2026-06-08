@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0d9a1d1-e860-452b-a93b-db649f6df8ab">
+  <producedTypes>
+    <objectType typeId="c936e740-1c6e-4203-b068-d241c7cc2861" valueTypeId="34a262e4-50f0-493b-916d-683351cdd72d"/>
+  </producedTypes>
+  <name>val_КонсольРегламентныхИФоновыхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль регламентных и фоновых заданий</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scheduled and background jobs console</value>
+  </synonym>
+  <comment>2026.05.29</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="aee18c7f-a6a5-443a-ad11-38be74810600"/>
+  <defaultForm>ExternalDataProcessor.val_КонсольРегламентныхИФоновыхЗаданий.Form.ФормаКонсольРегламентныхИФоновыхЗаданий</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="8bbd6452-15a8-4fbf-ba6e-7ec729cb0226">
+    <name>ФормаКонсольРегламентныхИФоновыхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консоль регламентных заданий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0e04d13b-c905-4f85-adc5-6a04e85812f5">
+    <name>ФормаРедактированияСтруктуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор структуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06ade855-3c83-4ae4-91af-978c690f1c33">
+    <name>ФормаНастройкиКонсоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки консоли</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Console settings</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
