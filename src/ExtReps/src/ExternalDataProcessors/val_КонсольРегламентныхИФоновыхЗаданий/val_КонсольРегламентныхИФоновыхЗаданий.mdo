@@ -51,4 +51,17 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="319ffe34-3235-4678-82fa-006d45bd4299">
+    <name>ФормаВыбораРолей</name>
+    <synonym>
+      <key>en</key>
+      <value>Configuration roles</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Роли конфигурации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ExternalDataProcessor>
