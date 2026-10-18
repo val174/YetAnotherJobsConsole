@@ -67,7 +67,7 @@
         </dataPath>
         <toolTip>
           <key>ru</key>
-          <value>Используется при создании новых пользователей из консоли. Имя пользователя формириуется по шаблону: [ПрефиксИмени]_[ИмяРегламентногоЗадания]</value>
+          <value>Используется при создании новых пользователей из консоли. Имя пользователя формируется по шаблону: [ПрефиксИмени]_[ИмяРегламентногоЗадания]</value>
         </toolTip>
         <toolTipRepresentation>Button</toolTipRepresentation>
         <extendedTooltip>
@@ -100,91 +100,6 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
-      <items xsi:type="form:FormField">
-        <name>ГруппаСлужебныхПользователей</name>
-        <id>9</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ГруппаСлужебныхПользователей</segments>
-        </dataPath>
-        <toolTip>
-          <key>ru</key>
-          <value>Элемент справочника &quot;ГруппыПользователей&quot;, в которую включается пользователь при созднии (актуально для конфиргураций с использованием БСП)</value>
-        </toolTip>
-        <toolTipRepresentation>Button</toolTipRepresentation>
-        <handlers>
-          <event>OnChange</event>
-          <name>ГруппаСлужебныхПользователейПриИзменении</name>
-        </handlers>
-        <extendedTooltip>
-          <name>ГруппаСлужебныхПользователейРасширеннаяПодсказка</name>
-          <id>11</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ГруппаСлужебныхПользователейКонтекстноеМеню</name>
-          <id>10</id>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>InputField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <handlers>
-            <event>StartChoice</event>
-            <name>ГруппаСлужебныхПользователейНачалоВыбора</name>
-          </handlers>
-          <handlers>
-            <event>ChoiceProcessing</event>
-            <name>ГруппаСлужебныхПользователейОбработкаВыбора</name>
-          </handlers>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <extendedEditMultipleValues>true</extendedEditMultipleValues>
-          <choiceButton>true</choiceButton>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
-      </items>
-      <items xsi:type="form:Button">
-        <name>ДобавитьРоли</name>
-        <id>52</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ДобавитьРолиРасширеннаяПодсказка</name>
-          <id>53</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualButton</type>
-        <commandName>Form.Command.ДобавитьРоли</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -210,7 +125,7 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>HorizontalIfPossible</group>
+        <group>Vertical</group>
         <behavior>Auto</behavior>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
@@ -842,49 +757,6 @@
     <savedData>true</savedData>
   </attributes>
   <attributes>
-    <name>ГруппаСлужебныхПользователей</name>
-    <title>
-      <key>ru</key>
-      <value>Группа служебных пользователей</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Group of service users</value>
-    </title>
-    <id>6</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>36</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>ИмяСправочникаГруппыПользователей</name>
-    <title>
-      <key>ru</key>
-      <value>Имя справочника группы пользователей</value>
-    </title>
-    <id>7</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>РазрешитьДобавлениеПользователейРегламентныхЗаданий</name>
     <title>
       <key>ru</key>
@@ -940,26 +812,6 @@
       <itemValueType/>
     </extInfo>
   </attributes>
-  <attributes>
-    <name>РолиПользователейРЗПоУмолчанию</name>
-    <title>
-      <key>ru</key>
-      <value>Роли пользователей РЗ по умолчанию</value>
-    </title>
-    <id>12</id>
-    <valueType>
-      <types>ValueList</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-    <extInfo xsi:type="form:ValueListExtInfo">
-      <itemValueType/>
-    </extInfo>
-  </attributes>
   <formCommands>
     <name>СохранитьНастройки</name>
     <title>
@@ -998,23 +850,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОчиститьИзбранное</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ДобавитьРоли</name>
-    <title>
-      <key>ru</key>
-      <value>Добавить роли</value>
-    </title>
-    <id>3</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ДобавитьРоли</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
