@@ -4,6 +4,10 @@
     <key>ru</key>
     <value>Выбор типа значений</value>
   </title>
+  <title>
+    <key>en</key>
+    <value>Value type selection</value>
+  </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаТипыЗначений</name>
     <id>128</id>
@@ -13,6 +17,10 @@
       <title>
         <key>ru</key>
         <value>Типы значений</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Value types</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -51,6 +59,10 @@
         <title>
           <key>ru</key>
           <value>Выбран</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Selected</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -92,6 +104,10 @@
         <title>
           <key>ru</key>
           <value>Тип</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Type</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -138,6 +154,10 @@
           <key>ru</key>
           <value>Имя типа</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Type name</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -161,6 +181,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
+        <readOnly>true</readOnly>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -180,6 +201,10 @@
         <title>
           <key>ru</key>
           <value>Это контейнер</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Is container</value>
         </title>
         <enabled>true</enabled>
         <userVisible>
@@ -204,54 +229,12 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
+        <readOnly>true</readOnly>
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>ДеревоТиповОписаниеТипаЭлемента</name>
-        <id>120</id>
-        <title>
-          <key>ru</key>
-          <value>Описание типа элемента</value>
-        </title>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ДеревоТипов.ОписаниеТипаЭлемента</segments>
-        </dataPath>
-        <extendedTooltip>
-          <name>ДеревоТиповДеревоТиповОписаниеТипаЭлементаРасширеннаяПодсказка</name>
-          <id>122</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ДеревоТиповДеревоТиповОписаниеТипаЭлементаКонтекстноеМеню</name>
-          <id>121</id>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>InputField</type>
-        <editMode>EnterOnInput</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-        </extInfo>
       </items>
       <commandBarLocation>None</commandBarLocation>
       <searchStringAddition>
@@ -342,7 +325,6 @@
       </contextMenu>
       <representation>Tree</representation>
       <changeRowSet>true</changeRowSet>
-      <changeRowOrder>true</changeRowOrder>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
@@ -355,13 +337,11 @@
       <horizontalLines>true</horizontalLines>
       <verticalLines>true</verticalLines>
       <useAlternationRowColor>true</useAlternationRowColor>
-      <autoInsertNewRow>true</autoInsertNewRow>
       <searchOnInput>Auto</searchOnInput>
       <initialListView>Auto</initialListView>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
-      <enableDrag>true</enableDrag>
       <fileDragMode>AsFileRef</fileDragMode>
     </items>
     <visible>true</visible>
@@ -372,6 +352,10 @@
     <title>
       <key>ru</key>
       <value>Типы значений</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Value types</value>
     </title>
     <extendedTooltip>
       <name>ГруппаТипыЗначенийРасширеннаяПодсказка</name>
@@ -407,6 +391,10 @@
         <title>
           <key>ru</key>
           <value>Разрядность</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Precision</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -452,6 +440,10 @@
           <key>ru</key>
           <value>Масштаб</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Scale</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -496,6 +488,10 @@
           <key>ru</key>
           <value>Только неотрицательные</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Non-negative only</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -534,6 +530,10 @@
         <key>ru</key>
         <value>Квалификаторы числа</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Number qualifiers</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаКвалификаторыЧислаРасширеннаяПодсказка</name>
         <id>74</id>
@@ -565,6 +565,10 @@
         <title>
           <key>ru</key>
           <value>Длина</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Length</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -610,6 +614,10 @@
           <key>ru</key>
           <value>Фиксированная длина</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Fixed length</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -648,6 +656,10 @@
         <key>ru</key>
         <value>Квалификаторы строки</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>String qualifiers</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаКвалификаторыСтрокиРасширеннаяПодсказка</name>
         <id>76</id>
@@ -679,6 +691,10 @@
         <title>
           <key>ru</key>
           <value>Части даты</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Date fractions</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -728,6 +744,10 @@
         <key>ru</key>
         <value>Квалификаторы даты</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Date qualifiers</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаКвалификаторыДатыРасширеннаяПодсказка</name>
         <id>124</id>
@@ -759,6 +779,10 @@
       <key>ru</key>
       <value>Группа квалификаторы типов</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Type qualifiers group</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаКвалификаторыТиповРасширеннаяПодсказка</name>
       <id>134</id>
@@ -785,6 +809,10 @@
     <items xsi:type="form:Button">
       <name>ВыбратьТип</name>
       <id>69</id>
+      <title>
+        <key>en</key>
+        <value>Select</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -811,6 +839,10 @@
     <items xsi:type="form:Button">
       <name>ОтменитьВыбор</name>
       <id>71</id>
+      <title>
+        <key>en</key>
+        <value>Cancel</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1033,17 +1065,14 @@
       </edit>
     </columns>
     <columns>
-      <name>ОписаниеТипаЭлемента</name>
+      <name>Тип</name>
       <title>
         <key>ru</key>
-        <value>Описание типа элемента</value>
+        <value>Тип</value>
       </title>
-      <id>21</id>
+      <id>25</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers>
-          <length>3000</length>
-        </stringQualifiers>
+        <types>TypeDescription</types>
       </valueType>
       <view>
         <common>true</common>
@@ -1105,6 +1134,12 @@
       </handler>
     </action>
   </formCommands>
+  <parameters>
+    <name>ТолькоПростыеТипы</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

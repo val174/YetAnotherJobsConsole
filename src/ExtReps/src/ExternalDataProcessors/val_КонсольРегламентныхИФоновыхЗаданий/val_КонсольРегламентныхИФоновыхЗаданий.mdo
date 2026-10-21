@@ -57,6 +57,23 @@
       <key>ru</key>
       <value>Выбор типа значения</value>
     </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value type selection</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d3ac5a78-7440-4ba5-950a-68b475f6080d">
+    <name>ФормаРедакторМассива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор массива</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Array editor</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
