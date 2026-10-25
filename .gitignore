@@ -7,9 +7,6 @@ out/
 allure-report/
 .scannerwork/
 
-# Зависимости OneScript
-oscript_modules/
-
 # Локальный env-профиль запуска (не коммитится)
 env.local.json
 

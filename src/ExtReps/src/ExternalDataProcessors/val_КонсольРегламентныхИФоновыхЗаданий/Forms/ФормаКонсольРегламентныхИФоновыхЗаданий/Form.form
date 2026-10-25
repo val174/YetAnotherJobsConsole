@@ -3954,6 +3954,99 @@
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаДополнительныеОтборыФоновых</name>
+          <id>453</id>
+          <items xsi:type="form:FormField">
+            <name>ОтборФоновыхПредставление</name>
+            <id>462</id>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ОтборФоновых_Представление</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <extendedTooltip>
+              <name>ОтборФоновыхПредставлениеРасширеннаяПодсказка</name>
+              <id>464</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ОтборФоновыхПредставлениеКонтекстноеМеню</name>
+              <id>463</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ОчиститьДополнительныеОтборыФоновых</name>
+            <id>460</id>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОчиститьДополнительныеОтборыФоновыхРасширеннаяПодсказка</name>
+              <id>461</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>Form.Command.ОчиститьДополнительныеОтборыФоновых</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ГруппаДополнительныеОтборыФоновыхРасширеннаяПодсказка</name>
+            <id>454</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>HorizontalIfPossible</group>
+            <behavior>Auto</behavior>
+            <representation>WeakSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <backColor xsi:type="core:ColorRef">
+              <color>Style.NavigationColor</color>
+            </backColor>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3961,7 +4054,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Группа отбор фоновых заданий</value>
+          <value>Отбор</value>
         </title>
         <extendedTooltip>
           <name>ГруппаОтборФоновыхЗаданийРасширеннаяПодсказка</name>
@@ -3976,9 +4069,11 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>Vertical</group>
-          <behavior>Auto</behavior>
+          <behavior>Collapsible</behavior>
+          <controlRepresentation>Picture</controlRepresentation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
+          <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
@@ -4404,6 +4499,31 @@
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
+              <name>ОткрытьОтборФоновыхЗаданий</name>
+              <id>455</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ОткрытьОтборФоновыхЗаданийРасширеннаяПодсказка</name>
+                <id>456</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ОткрытьОтборФоновыхЗаданий</commandName>
+              <representation>Picture</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <items xsi:type="form:Button">
               <name>СписокФоновыеЗаданияОстановитьФоновоеЗадание</name>
               <id>414</id>
               <visible>true</visible>
@@ -4428,9 +4548,42 @@
               <placementArea>UserCmds</placementArea>
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
+            <items xsi:type="form:Button">
+              <name>ПоказатьСкрытьПанельЗадания</name>
+              <id>451</id>
+              <title>
+                <key>ru</key>
+                <value>Сведения</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>СписокФоновыеЗаданияПоказатьСкрытьПанельЗаданияРасширеннаяПодсказка</name>
+                <id>452</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ПоказатьСкрытьПанельЗадания</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <horizontalAlign>Left</horizontalAlign>
             <autoFill>true</autoFill>
           </autoCommandBar>
+          <handlers>
+            <event>OnActivateRow</event>
+            <name>СписокФоновыеЗаданияПриАктивизацииСтроки</name>
+          </handlers>
           <searchStringAddition>
             <name>СписокФоновыеЗаданияСтрокаПоиска</name>
             <id>225</id>
@@ -4542,6 +4695,7 @@
             </items>
             <autoFill>true</autoFill>
           </contextMenu>
+          <readOnly>true</readOnly>
           <changeRowSet>true</changeRowSet>
           <changeRowOrder>true</changeRowOrder>
           <autoMaxWidth>true</autoMaxWidth>
@@ -4554,7 +4708,6 @@
           <horizontalScrollBar>AutoUse</horizontalScrollBar>
           <verticalScrollBar>AutoUse</verticalScrollBar>
           <useAlternationRowColor>true</useAlternationRowColor>
-          <autoInsertNewRow>true</autoInsertNewRow>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
           <horizontalStretch>true</horizontalStretch>
@@ -4568,37 +4721,6 @@
         <items xsi:type="form:FormGroup">
           <name>ГруппаПанельФоновоеЗадание</name>
           <id>349</id>
-          <items xsi:type="form:Decoration">
-            <name>Декорация1</name>
-            <id>365</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>Декорация1РасширеннаяПодсказка</name>
-              <id>367</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>Декорация1КонтекстноеМеню</name>
-              <id>366</id>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <height>2</height>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </items>
           <items xsi:type="form:FormField">
             <name>ФоновоеЗаданиеНаименование</name>
             <id>353</id>
@@ -5040,7 +5162,6 @@
             <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
-            <showTitle>true</showTitle>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -6777,6 +6898,106 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>СообщенияФоновыхПрочитаны</name>
+    <title>
+      <key>ru</key>
+      <value>Сообщения фоновых прочитаны</value>
+    </title>
+    <id>78</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОтборФоновых_Ключ</name>
+    <title>
+      <key>en</key>
+      <value>Scheduled job</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Ключ</value>
+    </title>
+    <id>79</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОтборФоновых_Наименование</name>
+    <title>
+      <key>en</key>
+      <value>Scheduled job</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Наименовавние</value>
+    </title>
+    <id>80</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОтборФоновых_ИмяМетода</name>
+    <title>
+      <key>en</key>
+      <value>Scheduled job</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Имя метода</value>
+    </title>
+    <id>81</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОтборФоновых_Представление</name>
+    <title>
+      <key>ru</key>
+      <value>Дополнительные отборы</value>
+    </title>
+    <id>84</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПоказыватьМетаданныеРегламентныхЗаданий</name>
     <title>
@@ -7499,6 +7720,61 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоказатьСкрытьПанельЗадания</name>
+    <title>
+      <key>ru</key>
+      <value>Сведения</value>
+    </title>
+    <id>27</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоказатьСкрытьПанельЗадания</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьОтборФоновыхЗаданий</name>
+    <title>
+      <key>ru</key>
+      <value>Дополнительные отборы…</value>
+    </title>
+    <id>28</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.FilterCriterion</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьОтборФоновыхЗаданий</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>ОчиститьДополнительныеОтборыФоновых</name>
+    <title>
+      <key>ru</key>
+      <value>Х</value>
+    </title>
+    <id>29</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.AppearanceCross</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОчиститьДополнительныеОтборыФоновых</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
