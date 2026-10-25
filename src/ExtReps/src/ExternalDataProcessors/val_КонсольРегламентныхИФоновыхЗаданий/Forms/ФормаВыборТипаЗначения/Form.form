@@ -694,7 +694,7 @@
         </title>
         <title>
           <key>en</key>
-          <value>Date fractions</value>
+          <value>Date parts</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -781,7 +781,7 @@
     </title>
     <title>
       <key>en</key>
-      <value>Type qualifiers group</value>
+      <value>Type qualifiers</value>
     </title>
     <extendedTooltip>
       <name>ГруппаКвалификаторыТиповРасширеннаяПодсказка</name>

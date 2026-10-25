@@ -23,6 +23,10 @@
           <items xsi:type="form:Button">
             <name>ПоказыватьМетаданныеРегламентныхЗаданий</name>
             <id>66</id>
+            <title>
+              <key>en</key>
+              <value>Metadata</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -107,6 +111,10 @@
               <key>ru</key>
               <value>Группа команды регламентного задания</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Scheduled job commands</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаКомандыРегламентногоЗаданияРасширеннаяПодсказка</name>
               <id>116</id>
@@ -185,6 +193,10 @@
               <key>ru</key>
               <value>Группа выключатель</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Toggle</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаВыключательРасширеннаяПодсказка</name>
               <id>112</id>
@@ -261,6 +273,10 @@
               <key>ru</key>
               <value>Группа сохранить загрузить</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Save / load</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаСохранитьЗагрузитьРасширеннаяПодсказка</name>
               <id>114</id>
@@ -281,6 +297,10 @@
             <items xsi:type="form:Button">
               <name>БыстрыйФильтр_Избранное</name>
               <id>441</id>
+              <title>
+                <key>en</key>
+                <value>Favorites</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -387,6 +407,10 @@
               <key>ru</key>
               <value>Быстрые фильтры</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Quick filters</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаБыстрыеФильтрыРасширеннаяПодсказка</name>
               <id>213</id>
@@ -471,6 +495,10 @@
               <key>ru</key>
               <value>Группа запустить задание</value>
             </toolTip>
+            <toolTip>
+              <key>en</key>
+              <value>Run job</value>
+            </toolTip>
             <extendedTooltip>
               <name>ГруппаЗапуститьЗаданиеРасширеннаяПодсказка</name>
               <id>331</id>
@@ -492,6 +520,10 @@
           <items xsi:type="form:Button">
             <name>ПерейтиКФоновымЗаданиям</name>
             <id>410</id>
+            <title>
+              <key>en</key>
+              <value>Go to background jobs</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -542,6 +574,10 @@
           <items xsi:type="form:Button">
             <name>ОбновитьСписокРегламентныеЗадания</name>
             <id>204</id>
+            <title>
+              <key>en</key>
+              <value>Refresh scheduled jobs list</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -573,6 +609,10 @@
             <key>ru</key>
             <value>Группа кнопки списка регламентных заданий</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Scheduled jobs list buttons</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаКнопкиСпискаРегламентныхЗаданийРасширеннаяПодсказка</name>
             <id>105</id>
@@ -591,6 +631,10 @@
           <items xsi:type="form:Button">
             <name>ПерейтиВСписокРегламентныхЗаданий</name>
             <id>98</id>
+            <title>
+              <key>en</key>
+              <value>Back</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -675,6 +719,10 @@
             <key>ru</key>
             <value>Группа кнопки регламентного задания</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Scheduled job buttons</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаКнопкиРегламентногоЗаданияРасширеннаяПодсказка</name>
             <id>103</id>
@@ -746,6 +794,10 @@
           <key>ru</key>
           <value>Командная панель &quot;Регламентные задания&quot;</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Command bar &quot;Scheduled jobs&quot;</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанельРегламентныеЗаданияРасширеннаяПодсказка</name>
           <id>65</id>
@@ -773,6 +825,10 @@
             <title>
               <key>ru</key>
               <value>Регл</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Sched.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -954,6 +1010,10 @@
           <items xsi:type="form:Table">
             <name>СписокРегламентныеЗадания</name>
             <id>28</id>
+            <title>
+              <key>en</key>
+              <value>Scheduled jobs list</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1200,6 +1260,10 @@
                 <key>ru</key>
                 <value>Изб.</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>Fav.</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1212,6 +1276,10 @@
               <toolTip>
                 <key>ru</key>
                 <value>Избранное</value>
+              </toolTip>
+              <toolTip>
+                <key>en</key>
+                <value>Favorites</value>
               </toolTip>
               <extendedTooltip>
                 <name>СписокРегламентныеЗаданияИзбранноеРасширеннаяПодсказка</name>
@@ -1597,9 +1665,17 @@
                   <key>ru</key>
                   <value>Список регламентные задания контекстное меню группа добавить удалить</value>
                 </title>
+                <title>
+                  <key>en</key>
+                  <value>Add / delete</value>
+                </title>
                 <toolTip>
                   <key>ru</key>
                   <value>Список регламентные задания контекстное меню группа добавить удалить</value>
+                </toolTip>
+                <toolTip>
+                  <key>en</key>
+                  <value>Add / delete</value>
                 </toolTip>
                 <extendedTooltip>
                   <name>СписокРегламентныеЗаданияКонтекстноеМенюГруппаДобавитьУдалитьРасширеннаяПодсказка</name>
@@ -1622,6 +1698,10 @@
                   <title>
                     <key>ru</key>
                     <value>Включить задание</value>
+                  </title>
+                  <title>
+                    <key>en</key>
+                    <value>Enable job</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1652,6 +1732,10 @@
                   <title>
                     <key>ru</key>
                     <value>Выключить задание</value>
+                  </title>
+                  <title>
+                    <key>en</key>
+                    <value>Disable job</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1685,9 +1769,17 @@
                   <key>ru</key>
                   <value>Список регламентные задания контекстное меню группа включить выключить</value>
                 </title>
+                <title>
+                  <key>en</key>
+                  <value>Enable / disable</value>
+                </title>
                 <toolTip>
                   <key>ru</key>
                   <value>Список регламентные задания контекстное меню группа включить выключить</value>
+                </toolTip>
+                <toolTip>
+                  <key>en</key>
+                  <value>Enable / disable</value>
                 </toolTip>
                 <extendedTooltip>
                   <name>СписокРегламентныеЗаданияКонтекстноеМенюГруппаВключитьВыключитьРасширеннаяПодсказка</name>
@@ -1710,6 +1802,10 @@
                   <title>
                     <key>ru</key>
                     <value>Запустить в текущем сеансе (на сервере)</value>
+                  </title>
+                  <title>
+                    <key>en</key>
+                    <value>Run in current session (on server)</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1739,6 +1835,10 @@
                   <title>
                     <key>ru</key>
                     <value>Запустить в фоновом задании</value>
+                  </title>
+                  <title>
+                    <key>en</key>
+                    <value>Run in background</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1771,9 +1871,17 @@
                   <key>ru</key>
                   <value>Список регламентные задания контекстное меню группа запустить</value>
                 </title>
+                <title>
+                  <key>en</key>
+                  <value>Run</value>
+                </title>
                 <toolTip>
                   <key>ru</key>
                   <value>Список регламентные задания контекстное меню группа запустить</value>
+                </toolTip>
+                <toolTip>
+                  <key>en</key>
+                  <value>Run</value>
                 </toolTip>
                 <extendedTooltip>
                   <name>СписокРегламентныеЗаданияКонтекстноеМенюГруппаЗапуститьРасширеннаяПодсказка</name>
@@ -1848,6 +1956,10 @@
                 <title>
                   <key>ru</key>
                   <value>Список регламентные задания контекстное меню группа избранное</value>
+                </title>
+                <title>
+                  <key>en</key>
+                  <value>Favorites</value>
                 </title>
                 <extendedTooltip>
                   <name>СписокРегламентныеЗаданияКонтекстноеМенюГруппаИзбранноеРасширеннаяПодсказка</name>
@@ -1943,6 +2055,10 @@
             <key>ru</key>
             <value>Регламентные задания</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Scheduled jobs</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаСписокРегламентныхЗаданийРасширеннаяПодсказка</name>
             <id>2</id>
@@ -1974,6 +2090,10 @@
                 <title>
                   <key>ru</key>
                   <value>Картинка избранное</value>
+                </title>
+                <title>
+                  <key>en</key>
+                  <value>Favorites icon</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2063,6 +2183,10 @@
                 <key>ru</key>
                 <value>Группа задание метаданные</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>Job metadata</value>
+              </title>
               <extendedTooltip>
                 <name>ГруппаЗадание_МетаданныеРасширеннаяПодсказка</name>
                 <id>437</id>
@@ -2132,6 +2256,10 @@
                 <title>
                   <key>ru</key>
                   <value>Расписание</value>
+                </title>
+                <title>
+                  <key>en</key>
+                  <value>Schedule</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2221,6 +2349,10 @@
               <title>
                 <key>ru</key>
                 <value>Группа расписание задания</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Job schedule</value>
               </title>
               <horizontalStretch>true</horizontalStretch>
               <extendedTooltip>
@@ -2343,6 +2475,10 @@
                   <key>ru</key>
                   <value>раз</value>
                 </title>
+                <title>
+                  <key>en</key>
+                  <value>times</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2376,6 +2512,10 @@
                 <title>
                   <key>ru</key>
                   <value>через</value>
+                </title>
+                <title>
+                  <key>en</key>
+                  <value>every</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2426,6 +2566,10 @@
                   <key>ru</key>
                   <value>секунд</value>
                 </title>
+                <title>
+                  <key>en</key>
+                  <value>seconds</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2461,6 +2605,10 @@
               <title>
                 <key>ru</key>
                 <value>Перезапуск</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Retry</value>
               </title>
               <extendedTooltip>
                 <name>ГруппаПерезапускЗаданияРасширеннаяПодсказка</name>
@@ -2656,9 +2804,17 @@
                 <key>ru</key>
                 <value>Группа задание пользователь</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>Job user</value>
+              </title>
               <toolTip>
                 <key>ru</key>
                 <value>Группа задание пользователь</value>
+              </toolTip>
+              <toolTip>
+                <key>en</key>
+                <value>Job user</value>
               </toolTip>
               <extendedTooltip>
                 <name>ГруппаЗадание_ПользовательРасширеннаяПодсказка</name>
@@ -2818,9 +2974,17 @@
                 <key>ru</key>
                 <value>Последний запуск</value>
               </title>
+              <title>
+                <key>en</key>
+                <value>Last run</value>
+              </title>
               <toolTip>
                 <key>ru</key>
                 <value>Группа результат последнего запуска</value>
+              </toolTip>
+              <toolTip>
+                <key>en</key>
+                <value>Last run results</value>
               </toolTip>
               <extendedTooltip>
                 <name>ГруппаРезультатПоследнегоЗапускаРасширеннаяПодсказка</name>
@@ -2853,6 +3017,10 @@
             <title>
               <key>ru</key>
               <value>Группа реквизиты регламентного задания</value>
+            </title>
+            <title>
+              <key>en</key>
+              <value>Scheduled job details</value>
             </title>
             <extendedTooltip>
               <name>ГруппаРеквизитыРегламентногоЗаданияРасширеннаяПодсказка</name>
@@ -3147,6 +3315,10 @@
               <key>ru</key>
               <value>Параметры</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Parameters</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаПараметрыЗаданияРасширеннаяПодсказка</name>
               <id>122</id>
@@ -3180,6 +3352,10 @@
             <key>ru</key>
             <value>Регламентное задание</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Scheduled job</value>
+          </title>
           <extendedTooltip>
             <name>СтраницаРегламентноеЗаданиеРасширеннаяПодсказка</name>
             <id>77</id>
@@ -3204,6 +3380,10 @@
         <title>
           <key>ru</key>
           <value>Страницы регламентных</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Scheduled job pages</value>
         </title>
         <extendedTooltip>
           <name>СтраницыРегламентныхРасширеннаяПодсказка</name>
@@ -3592,6 +3772,10 @@
               <key>ru</key>
               <value>Группа произвольный интервал</value>
             </title>
+            <title>
+              <key>en</key>
+              <value>Custom range</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаПроизвольныйИнтервалРасширеннаяПодсказка</name>
               <id>289</id>
@@ -3703,6 +3887,10 @@
           <title>
             <key>ru</key>
             <value>Группа отбор фоновых интервал</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Interval</value>
           </title>
           <extendedTooltip>
             <name>ГруппаОтборФоновыхИнтервалРасширеннаяПодсказка</name>
@@ -3934,6 +4122,10 @@
             <key>ru</key>
             <value>Группа отбор фоновых состояния</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>States</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаОтборФоновыхСостоянияРасширеннаяПодсказка</name>
             <id>301</id>
@@ -3996,6 +4188,10 @@
           <items xsi:type="form:Button">
             <name>ОчиститьДополнительныеОтборыФоновых</name>
             <id>460</id>
+            <title>
+              <key>en</key>
+              <value>×</value>
+            </title>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -4055,6 +4251,10 @@
         <title>
           <key>ru</key>
           <value>Отбор</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Filter</value>
         </title>
         <extendedTooltip>
           <name>ГруппаОтборФоновыхЗаданийРасширеннаяПодсказка</name>
@@ -4501,6 +4701,10 @@
             <items xsi:type="form:Button">
               <name>ОткрытьОтборФоновыхЗаданий</name>
               <id>455</id>
+              <title>
+                <key>en</key>
+                <value>Additional filters…</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -4554,6 +4758,10 @@
               <title>
                 <key>ru</key>
                 <value>Сведения</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>Details</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -5141,9 +5349,17 @@
             <key>ru</key>
             <value>Сведения</value>
           </title>
+          <title>
+            <key>en</key>
+            <value>Details</value>
+          </title>
           <toolTip>
             <key>ru</key>
             <value>Группа панель фоновое задание</value>
+          </toolTip>
+          <toolTip>
+            <key>en</key>
+            <value>Background job details</value>
           </toolTip>
           <extendedTooltip>
             <name>ГруппаПанельФоновоеЗаданиеРасширеннаяПодсказка</name>
@@ -5175,9 +5391,17 @@
           <key>ru</key>
           <value>Группа фоновые задания общая</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Background jobs</value>
+        </title>
         <toolTip>
           <key>ru</key>
           <value>Группа фоновые задания общая</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Background jobs</value>
         </toolTip>
         <extendedTooltip>
           <name>ГруппаФоновыеЗаданияОбщаяРасширеннаяПодсказка</name>
@@ -5242,6 +5466,10 @@
     <title>
       <key>ru</key>
       <value>Страницы заданий</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Job pages</value>
     </title>
     <extendedTooltip>
       <name>СтраницыЗаданийРасширеннаяПодсказка</name>
@@ -5820,6 +6048,10 @@
       <key>ru</key>
       <value>Показывать метаданные</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Show metadata</value>
+    </title>
     <id>15</id>
     <valueType>
       <types>Boolean</types>
@@ -5989,6 +6221,10 @@
       <key>ru</key>
       <value>Это регламентное задание</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Is scheduled job</value>
+    </title>
     <id>27</id>
     <valueType>
       <types>Boolean</types>
@@ -6005,6 +6241,10 @@
     <title>
       <key>ru</key>
       <value>Это добавление задания</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Is job creation</value>
     </title>
     <id>30</id>
     <valueType>
@@ -6072,6 +6312,10 @@
     <title>
       <key>ru</key>
       <value>Задание изменено</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Job changed</value>
     </title>
     <id>33</id>
     <valueType>
@@ -7281,6 +7525,10 @@
       <key>ru</key>
       <value>Обновить список фоновых заданий</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Refresh background jobs list</value>
+    </title>
     <id>12</id>
     <toolTip>
       <key>ru</key>
@@ -7554,6 +7802,10 @@
       <key>ru</key>
       <value>Остановить фоновое задание</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Stop background job</value>
+    </title>
     <id>20</id>
     <toolTip>
       <key>ru</key>
@@ -7610,6 +7862,10 @@
     <title>
       <key>ru</key>
       <value>Открыть настройки консоли</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Open console settings</value>
     </title>
     <id>22</id>
     <toolTip>
@@ -7706,6 +7962,10 @@
     <title>
       <key>ru</key>
       <value>Изменить расписание контекст</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Change schedule</value>
     </title>
     <id>26</id>
     <use>
