@@ -4,9 +4,17 @@
     <key>ru</key>
     <value>Редактирование структуры</value>
   </title>
+  <title>
+    <key>en</key>
+    <value>Structure editor</value>
+  </title>
   <items xsi:type="form:Table">
     <name>КлючиСтруктуры</name>
     <id>1</id>
+    <title>
+      <key>en</key>
+      <value>Structure keys</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -434,10 +442,18 @@
       <key>ru</key>
       <value>Записать и закрыть</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Save and close</value>
+    </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
       <value>Записать и закрыть</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Save and close</value>
     </toolTip>
     <use>
       <common>true</common>

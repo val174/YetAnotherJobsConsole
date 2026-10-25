@@ -56,7 +56,7 @@
 
 Функция КлючОбъекта() Экспорт
 	
-	Возврат НСтр("ru = 'КонсольРегламентныхИФоновыхЗаданий'; en = 'ScheduledAndBackroundJobsConsole'");
+	Возврат НСтр("ru = 'КонсольРегламентныхИФоновыхЗаданий'; en = 'ScheduledAndBackgroundJobsConsole'");
 	
 КонецФункции
 

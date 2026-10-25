@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>en</key>
+    <value>Background jobs filter</value>
+  </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаИнтервал</name>
     <id>21</id>
@@ -9,6 +13,10 @@
       <title>
         <key>ru</key>
         <value>Интервал</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Interval</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -63,6 +71,10 @@
           <key>ru</key>
           <value>Период с</value>
         </title>
+        <title>
+          <key>en</key>
+          <value>Period from</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -105,6 +117,10 @@
       <items xsi:type="form:Button">
         <name>ВыбратьПериод</name>
         <id>51</id>
+        <title>
+          <key>en</key>
+          <value>Select period</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -134,6 +150,10 @@
         <title>
           <key>ru</key>
           <value>по</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>to</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -184,6 +204,10 @@
         <key>ru</key>
         <value>Произвольный интервал</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Custom range</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаПроизвольныйИнтервалРасширеннаяПодсказка</name>
         <id>27</id>
@@ -211,6 +235,10 @@
     <title>
       <key>ru</key>
       <value>Интервал</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Interval</value>
     </title>
     <extendedTooltip>
       <name>ГруппаИнтервалРасширеннаяПодсказка</name>
@@ -241,6 +269,10 @@
       <title>
         <key>ru</key>
         <value>Регламентное задание</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Scheduled job</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -289,6 +321,10 @@
         <key>ru</key>
         <value>Имя метода</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Method name</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -335,6 +371,10 @@
         <key>ru</key>
         <value>Наименование</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Description</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -379,6 +419,10 @@
       <title>
         <key>ru</key>
         <value>Ключ</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Key</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -427,6 +471,10 @@
       <key>ru</key>
       <value>Отбор</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>Filter</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаОтборРасширеннаяПодсказка</name>
       <id>2</id>
@@ -456,6 +504,10 @@
       <title>
         <key>ru</key>
         <value>Активные</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Active</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -495,6 +547,10 @@
         <key>ru</key>
         <value>Завершенные</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Completed</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -533,6 +589,10 @@
         <key>ru</key>
         <value>Завершенные аварийно</value>
       </title>
+      <title>
+        <key>en</key>
+        <value>Failed</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -570,6 +630,10 @@
       <title>
         <key>ru</key>
         <value>Отмененные</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Canceled</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -611,6 +675,10 @@
       <key>ru</key>
       <value>Состояния</value>
     </title>
+    <title>
+      <key>en</key>
+      <value>States</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаСостоянияРасширеннаяПодсказка</name>
       <id>38</id>
@@ -639,6 +707,10 @@
     <items xsi:type="form:Button">
       <name>ПрименитьОтбор</name>
       <id>17</id>
+      <title>
+        <key>en</key>
+        <value>Apply</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -666,6 +738,10 @@
     <items xsi:type="form:Button">
       <name>ОчиститьОтбор</name>
       <id>19</id>
+      <title>
+        <key>en</key>
+        <value>Clear</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
