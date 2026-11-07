@@ -761,6 +761,32 @@
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
+          <name>ЗарегистрироватьВДопОбработках</name>
+          <id>465</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ЗарегистрироватьВДопОбработкахРасширеннаяПодсказка</name>
+            <id>466</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ЗарегистрироватьВДопОбработках</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+        </items>
+        <items xsi:type="form:Button">
           <name>НастройкиКонсоли</name>
           <id>425</id>
           <visible>true</visible>
@@ -7242,6 +7268,24 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ПолноеИмяФайлаОбработки</name>
+    <title>
+      <key>ru</key>
+      <value>Полное имя файла обработки</value>
+    </title>
+    <id>85</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПоказыватьМетаданныеРегламентныхЗаданий</name>
     <title>
@@ -8035,6 +8079,22 @@
       </handler>
     </action>
     <representation>Picture</representation>
+  </formCommands>
+  <formCommands>
+    <name>ЗарегистрироватьВДопОбработках</name>
+    <title>
+      <key>ru</key>
+      <value>Зарегистрировать в доп. обработках</value>
+    </title>
+    <id>30</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗарегистрироватьВДопОбработках</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

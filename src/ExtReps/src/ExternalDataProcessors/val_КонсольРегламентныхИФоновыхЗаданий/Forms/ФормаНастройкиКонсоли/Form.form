@@ -710,30 +710,6 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>ПериодАвтообновления</name>
-    <title>
-      <key>ru</key>
-      <value>Период автообновления</value>
-    </title>
-    <title>
-      <key>en</key>
-      <value>Auto-refresh period</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ИмяМодуляРегламентныхЗаданий</name>
     <title>
       <key>ru</key>
