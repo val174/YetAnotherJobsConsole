@@ -15,3 +15,6 @@ ConfigDumpInfo.xml
 src/cf/ConfigDumpInfo.xml
 src/cf/lastUploadedCommit.txt
 src/cf/lastUploadedConfigDumpInfo.xml
+
+# Прочие файлы
+TODO.md

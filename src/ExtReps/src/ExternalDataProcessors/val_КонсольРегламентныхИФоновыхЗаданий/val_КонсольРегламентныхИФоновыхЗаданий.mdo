@@ -12,7 +12,7 @@
     <key>en</key>
     <value>Scheduled and background jobs console</value>
   </synonym>
-  <comment>2026.05.29</comment>
+  <comment>2026.11.07</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="aee18c7f-a6a5-443a-ad11-38be74810600"/>
   <defaultForm>ExternalDataProcessor.val_КонсольРегламентныхИФоновыхЗаданий.Form.ФормаКонсольРегламентныхИФоновыхЗаданий</defaultForm>
   <help>
